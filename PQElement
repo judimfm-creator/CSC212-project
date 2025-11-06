@@ -1,0 +1,11 @@
+
+public class PQElement<T>
+ {
+    public T data;
+    float priority;
+        
+    public PQElement(T e, float prt){
+                   data = e;
+                   priority = prt;
+   }
+}
